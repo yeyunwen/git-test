@@ -31,6 +31,11 @@
       "prettier --write"
     ]
   },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yeyunwen/git-test.git"
@@ -43,7 +48,10 @@
   },
   "homepage": "https://github.com/yeyunwen/git-test#readme",
   "devDependencies": {
+    "@commitlint/cli": "^18.2.0",
+    "@commitlint/config-conventional": "^18.1.0",
     "commitizen": "^4.3.0",
+    "cz-git": "^1.7.1",
     "eslint": "^8.52.0",
     "husky": "^8.0.0",
     "lint-staged": "^15.0.2",
